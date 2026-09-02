@@ -84,6 +84,21 @@ ARTICLE_CONTENT_SELECTORS = [
 # Text fragments that mark a story as a longer/paywalled "PRIME" feature.
 PRIME_MARKERS = ("PRIME",)
 
+# How many sentences to keep in the in-app summary.
+SUMMARY_SENTENCES = 3
+
+STOPWORDS = set("""
+a an the and or but if while is are was were be been being of to in on at by for with
+about against between into through during before after above below from up down out off over under again
+further then once here there all any both each few more most other some such no nor not only own same so
+than too very s t can will just don should now this that these those i you he she it we they what which
+who whom as it's its it is has have had do does did having he'd he'll he's her here's hers herself him
+himself his how how's i'd i'll i'm i've let's me my myself our ours ourselves she'd she'll she's them
+themselves they'd they'll they're they've this we'd we'll we're we've were what's when when's where
+where's which while who's whose why why's would you'd you'll you're you've your yours yourself yourselves
+said also mr ms mrs says according told
+""".split())
+
 
 # ---------------------------------------------------------------------------
 # Scraping helpers
@@ -164,7 +179,12 @@ def split_headline_and_time(raw_text, category_tag):
     return title, excerpt, stamp, is_prime
 
 
-def estimate_reading_time(article_html):
+def get_article_paragraphs(article_html):
+    """
+    Return a list of cleaned paragraph strings from an article's main body,
+    or None if no body could be confidently found. Shared by the reading-time
+    estimate and the summarizer so both work off the same extracted text.
+    """
     if not article_html:
         return None
     soup = BeautifulSoup(article_html, "lxml")
@@ -173,12 +193,64 @@ def estimate_reading_time(article_html):
         container = soup.select_one(selector)
         if not container:
             continue
-        paragraphs = container.find_all("p")
-        words = sum(len(clean_text(p.get_text()).split()) for p in paragraphs)
-        if words >= 50:  # sanity floor so we don't measure nav/footer junk
-            return max(1, round(words / WORDS_PER_MINUTE))
+        paragraphs = [clean_text(p.get_text()) for p in container.find_all("p")]
+        paragraphs = [p for p in paragraphs if len(p.split()) > 4]
+        word_count = sum(len(p.split()) for p in paragraphs)
+        if word_count >= 50:  # sanity floor so we don't measure nav/footer junk
+            return paragraphs
 
     return None
+
+
+def estimate_reading_time(paragraphs):
+    if not paragraphs:
+        return None
+    words = sum(len(p.split()) for p in paragraphs)
+    return max(1, round(words / WORDS_PER_MINUTE))
+
+
+def summarize(paragraphs, max_sentences=SUMMARY_SENTENCES):
+    """
+    Lightweight extractive summary — no external API, no model download.
+    Scores each sentence by how many "important" (non-stopword, frequent)
+    words it contains, gives a small boost to early sentences since news
+    ledes usually carry the key facts, then keeps the top-scoring sentences
+    in their original order so the summary still reads coherently.
+    """
+    if not paragraphs:
+        return None
+
+    text = " ".join(paragraphs)
+    sentences = re.split(r"(?<=[.!?])\s+(?=[A-Z])", text)
+    sentences = [s.strip() for s in sentences if len(s.split()) > 4]
+    if not sentences:
+        return None
+    if len(sentences) <= max_sentences:
+        return " ".join(sentences)
+
+    word_freq = {}
+    for w in re.findall(r"[a-zA-Z']+", text.lower()):
+        if w in STOPWORDS or len(w) < 3:
+            continue
+        word_freq[w] = word_freq.get(w, 0) + 1
+    if not word_freq:
+        return " ".join(sentences[:max_sentences])
+    peak = max(word_freq.values())
+    for w in word_freq:
+        word_freq[w] /= peak
+
+    scored = []
+    for i, sentence in enumerate(sentences):
+        s_words = re.findall(r"[a-zA-Z']+", sentence.lower())
+        if not s_words:
+            continue
+        score = sum(word_freq.get(w, 0) for w in s_words) / len(s_words)
+        score *= 1.15 if i < 2 else 1.0  # lede boost
+        scored.append((score, i, sentence))
+
+    top = sorted(scored, key=lambda x: x[0], reverse=True)[:max_sentences]
+    ordered = [sentence for _, _, sentence in sorted(top, key=lambda x: x[1])]
+    return " ".join(ordered)
 
 
 # ---------------------------------------------------------------------------
@@ -206,15 +278,24 @@ def build_digest(fetch_articles=True, limit_per_category=10):
                 continue
 
             minutes = None
+            summary = None
             if fetch_articles:
                 time.sleep(DELAY_BETWEEN_REQUESTS)
                 article_html = fetch(item["url"], session)
-                minutes = estimate_reading_time(article_html)
+                paragraphs = get_article_paragraphs(article_html)
+                minutes = estimate_reading_time(paragraphs)
+                summary = summarize(paragraphs)
 
             if minutes is None:
                 # Fallback heuristic when we skip fetching or can't parse body:
                 # PRIME/long-form features run longer than standard news briefs.
                 minutes = 6 if is_prime else 3
+
+            if summary is None:
+                # No article body to summarize (skipped fetch, paywalled, or
+                # markup didn't match) — fall back to the teaser text so the
+                # app still has something to show in-app.
+                summary = excerpt or "No summary available — read the full story on Monitor."
 
             display_tag = f"{tag} · Full read" if is_prime else tag
 
@@ -225,6 +306,7 @@ def build_digest(fetch_articles=True, limit_per_category=10):
                     "minutes": minutes,
                     "title": title,
                     "excerpt": excerpt or "Read the full story on Monitor.",
+                    "summary": summary,
                     "url": item["url"],
                 }
             )
