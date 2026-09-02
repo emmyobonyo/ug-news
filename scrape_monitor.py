@@ -17,6 +17,9 @@ USAGE
     python scrape_monitor.py --no-fetch-articles   # faster, skips per-article
                                                     # word counts, uses estimates
     python scrape_monitor.py --limit 15            # cap stories per category
+    python scrape_monitor.py --debug-failures      # saves raw HTML of any
+                                                    # article extraction failed
+                                                    # on, to ./debug_html/
 
 OUTPUT
     Writes ./digest.json next to this script.
@@ -71,8 +74,9 @@ WORDS_PER_MINUTE = 200
 ARTICLE_URL_RE = re.compile(r"^/uganda/[a-z-]+/[a-z-]+/[a-z0-9-]+-\d{5,9}/?$")
 
 # Candidate CSS selectors for the main body text on an article page, tried
-# in order until one returns content. Adjust/add to this list if the site's
-# markup differs from what's assumed here.
+# first since they're fast when they work. If none match enough content,
+# get_article_paragraphs() falls back to scanning every <p> on the page and
+# filtering out known boilerplate — see BOILERPLATE_PATTERNS below.
 ARTICLE_CONTENT_SELECTORS = [
     "article",
     "div.article-body",
@@ -80,6 +84,21 @@ ARTICLE_CONTENT_SELECTORS = [
     "div[class*='content'] p",
     "main",
 ]
+
+# Phrases that mark navigation, paywall prompts, and other non-article text.
+# Monitor mixes this into the same page as the article body (e.g. a paywall
+# notice sits right alongside the real paragraphs on PRIME articles), so
+# selector-based extraction alone isn't reliable — this filters it out.
+BOILERPLATE_PATTERNS = re.compile(
+    r"register to (continue|begin)|subscribe (for|to)|already have an account|"
+    r"recommended for you|in the headlines|we're sorry|reload page|"
+    r"stay updated by following|nation media group|advertise with us|"
+    r"privacy policy|terms of (use|conditions)|frequently asked questions|"
+    r"caption for the|photo/|scroll down to read|what you need to know|"
+    r"log in|sign up|sign in|webmail|donate|epaper|ePaper|"
+    r"share this|facebook\.com/sharer|twitter\.com/intent|wa\.me/",
+    re.IGNORECASE,
+)
 
 # Text fragments that mark a story as a longer/paywalled "PRIME" feature.
 PRIME_MARKERS = ("PRIME",)
@@ -184,6 +203,11 @@ def get_article_paragraphs(article_html):
     Return a list of cleaned paragraph strings from an article's main body,
     or None if no body could be confidently found. Shared by the reading-time
     estimate and the summarizer so both work off the same extracted text.
+
+    Tries the named container selectors first (fast path). If that comes up
+    short — which happens often on this site, since paywall/error markup
+    sometimes shares the page with the real article text — falls back to
+    scanning every <p> on the page and filtering out known boilerplate.
     """
     if not article_html:
         return None
@@ -196,8 +220,18 @@ def get_article_paragraphs(article_html):
         paragraphs = [clean_text(p.get_text()) for p in container.find_all("p")]
         paragraphs = [p for p in paragraphs if len(p.split()) > 4]
         word_count = sum(len(p.split()) for p in paragraphs)
-        if word_count >= 50:  # sanity floor so we don't measure nav/footer junk
+        if word_count >= 50:
             return paragraphs
+
+    # Fallback: whole-page scan with boilerplate filtering.
+    all_paragraphs = [clean_text(p.get_text()) for p in soup.find_all("p")]
+    filtered = [
+        p for p in all_paragraphs
+        if len(p.split()) > 5 and not BOILERPLATE_PATTERNS.search(p)
+    ]
+    word_count = sum(len(p.split()) for p in filtered)
+    if word_count >= 50:
+        return filtered
 
     return None
 
@@ -257,9 +291,13 @@ def summarize(paragraphs, max_sentences=SUMMARY_SENTENCES):
 # Main
 # ---------------------------------------------------------------------------
 
-def build_digest(fetch_articles=True, limit_per_category=10):
+def build_digest(fetch_articles=True, limit_per_category=10, debug_failures=False):
     session = requests.Session()
     all_stories = []
+
+    if debug_failures:
+        import os
+        os.makedirs("debug_html", exist_ok=True)
 
     for tag, page_url in CATEGORY_PAGES.items():
         print(f"Fetching category: {tag} ({page_url})")
@@ -279,6 +317,7 @@ def build_digest(fetch_articles=True, limit_per_category=10):
 
             minutes = None
             summary = None
+            paragraphs = None
             if fetch_articles:
                 time.sleep(DELAY_BETWEEN_REQUESTS)
                 article_html = fetch(item["url"], session)
@@ -286,16 +325,33 @@ def build_digest(fetch_articles=True, limit_per_category=10):
                 minutes = estimate_reading_time(paragraphs)
                 summary = summarize(paragraphs)
 
+                if debug_failures and not paragraphs:
+                    slug = item["url"].rstrip("/").split("/")[-1][:80]
+                    with open(f"debug_html/{slug}.html", "w", encoding="utf-8") as f:
+                        f.write(article_html or "")
+
             if minutes is None:
                 # Fallback heuristic when we skip fetching or can't parse body:
                 # PRIME/long-form features run longer than standard news briefs.
                 minutes = 6 if is_prime else 3
 
+            # Prefer a real first-paragraph excerpt over the title-splitting
+            # heuristic, which only fires when the teaser text happened to be
+            # glued onto the headline on the category page.
+            if paragraphs:
+                first = paragraphs[0]
+                excerpt = first if len(first) <= 160 else first[:157].rsplit(" ", 1)[0] + "…"
+            elif not excerpt:
+                excerpt = "Full text requires a Monitor subscription." if is_prime else "Read the full story on Monitor."
+
             if summary is None:
-                # No article body to summarize (skipped fetch, paywalled, or
-                # markup didn't match) — fall back to the teaser text so the
-                # app still has something to show in-app.
-                summary = excerpt or "No summary available — read the full story on Monitor."
+                if is_prime:
+                    summary = (
+                        "This is a premium (PRIME) Monitor article — the free preview "
+                        "doesn't include enough text to summarize here. " + excerpt
+                    )
+                else:
+                    summary = excerpt
 
             display_tag = f"{tag} · Full read" if is_prime else tag
 
@@ -305,7 +361,7 @@ def build_digest(fetch_articles=True, limit_per_category=10):
                     "time": stamp,
                     "minutes": minutes,
                     "title": title,
-                    "excerpt": excerpt or "Read the full story on Monitor.",
+                    "excerpt": excerpt,
                     "summary": summary,
                     "url": item["url"],
                 }
@@ -335,12 +391,19 @@ def main():
         "--limit", type=int, default=10, help="Max stories to pull per category (default 10)."
     )
     parser.add_argument(
+        "--debug-failures",
+        action="store_true",
+        help="Save raw HTML of any article where paragraph extraction failed, to ./debug_html/, for inspection.",
+    )
+    parser.add_argument(
         "--out", default="digest.json", help="Output file path (default ./digest.json)."
     )
     args = parser.parse_args()
 
     stories = build_digest(
-        fetch_articles=not args.no_fetch_articles, limit_per_category=args.limit
+        fetch_articles=not args.no_fetch_articles,
+        limit_per_category=args.limit,
+        debug_failures=args.debug_failures,
     )
 
     now = datetime.now(timezone.utc).astimezone()
