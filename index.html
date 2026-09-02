@@ -1,0 +1,397 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Uganda in Five — Monitor Digest</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Inter:wght@400;500;600;700&display=swap");
+
+      :root {
+        --paper: #f6f1e6;
+        --ink: #241d15;
+        --ink-soft: #5c5142;
+        --clay: #b5502f;
+        --clay-deep: #8a3b21;
+        --line: #d8cdb4;
+        --gold: #a3852c;
+        --card: #fffdf8;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background: var(--paper);
+        color: var(--ink);
+        font-family: "Inter", sans-serif;
+        -webkit-font-smoothing: antialiased;
+      }
+
+      .wrap {
+        max-width: 760px;
+        margin: 0 auto;
+        padding: 40px 24px 80px;
+      }
+
+      /* Masthead */
+      .masthead {
+        border-bottom: 3px solid var(--ink);
+        padding-bottom: 18px;
+        margin-bottom: 8px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        flex-wrap: wrap;
+        gap: 12px;
+      }
+      .masthead h1 {
+        font-family: "Source Serif 4", serif;
+        font-weight: 700;
+        font-size: 2.6rem;
+        margin: 0;
+        letter-spacing: -0.01em;
+        line-height: 1;
+      }
+      .masthead h1 em {
+        font-style: italic;
+        color: var(--clay);
+      }
+      .masthead .date {
+        font-size: 0.85rem;
+        color: var(--ink-soft);
+        font-variant-numeric: oldstyle-nums;
+        text-align: right;
+      }
+      .masthead .date .day {
+        font-family: "Source Serif 4", serif;
+        font-style: italic;
+        font-size: 1rem;
+        color: var(--ink);
+        display: block;
+      }
+
+      .strapline {
+        font-size: 0.95rem;
+        color: var(--ink-soft);
+        margin: 14px 0 28px;
+        max-width: 52ch;
+        line-height: 1.5;
+      }
+
+      /* Controls */
+      .controls {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 16px;
+        flex-wrap: wrap;
+        margin-bottom: 6px;
+        padding-bottom: 14px;
+        border-bottom: 1px solid var(--line);
+      }
+      .budget {
+        font-size: 0.85rem;
+        color: var(--ink-soft);
+      }
+      .budget strong {
+        color: var(--ink);
+      }
+      .toggle {
+        display: inline-flex;
+        background: var(--card);
+        border: 1px solid var(--line);
+        border-radius: 999px;
+        padding: 3px;
+        gap: 2px;
+      }
+      .toggle button {
+        border: none;
+        background: transparent;
+        font-family: "Inter", sans-serif;
+        font-size: 0.78rem;
+        font-weight: 600;
+        padding: 7px 14px;
+        border-radius: 999px;
+        color: var(--ink-soft);
+        cursor: pointer;
+        transition:
+          background 0.15s ease,
+          color 0.15s ease;
+      }
+      .toggle button.active {
+        background: var(--ink);
+        color: var(--paper);
+      }
+
+      /* Stories */
+      .stories {
+        margin-top: 4px;
+      }
+      .story {
+        display: grid;
+        grid-template-columns: 56px 1fr;
+        gap: 16px;
+        padding: 22px 0;
+        border-bottom: 1px solid var(--line);
+        cursor: pointer;
+        transition: opacity 0.15s ease;
+      }
+      .story:last-child {
+        border-bottom: none;
+      }
+      .story.read {
+        opacity: 0.42;
+      }
+
+      .story .clock {
+        font-family: "Source Serif 4", serif;
+        text-align: center;
+        padding-top: 2px;
+      }
+      .clock .n {
+        display: block;
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: var(--clay);
+        line-height: 1;
+      }
+      .clock .u {
+        display: block;
+        font-size: 0.62rem;
+        color: var(--ink-soft);
+        letter-spacing: 0.03em;
+        margin-top: 2px;
+      }
+
+      .story .body {
+        min-width: 0;
+      }
+      .tagrow {
+        display: flex;
+        gap: 8px;
+        align-items: center;
+        margin-bottom: 6px;
+      }
+      .tag {
+        font-size: 0.68rem;
+        font-weight: 600;
+        letter-spacing: 0.03em;
+        color: var(--gold);
+        text-transform: uppercase;
+      }
+      .dot {
+        color: var(--line);
+      }
+      .stamp {
+        font-size: 0.72rem;
+        color: var(--ink-soft);
+      }
+
+      .story h2 {
+        font-family: "Source Serif 4", serif;
+        font-weight: 600;
+        font-size: 1.28rem;
+        line-height: 1.28;
+        margin: 0 0 6px;
+        color: var(--ink);
+      }
+      .story.read h2 {
+        text-decoration: line-through;
+        text-decoration-color: var(--ink-soft);
+      }
+
+      .story p.excerpt {
+        font-size: 0.92rem;
+        line-height: 1.5;
+        color: var(--ink-soft);
+        margin: 0 0 10px;
+        max-width: 60ch;
+      }
+
+      .story a.readlink {
+        font-size: 0.8rem;
+        font-weight: 600;
+        color: var(--clay-deep);
+        text-decoration: none;
+        border-bottom: 1px solid transparent;
+      }
+      .story a.readlink:hover {
+        border-bottom-color: var(--clay-deep);
+      }
+
+      .hidden {
+        display: none !important;
+      }
+
+      footer {
+        margin-top: 36px;
+        padding-top: 18px;
+        border-top: 1px solid var(--line);
+        font-size: 0.78rem;
+        color: var(--ink-soft);
+        line-height: 1.6;
+      }
+      footer a {
+        color: var(--clay-deep);
+      }
+
+      @media (max-width: 480px) {
+        .masthead h1 {
+          font-size: 2rem;
+        }
+        .story {
+          grid-template-columns: 44px 1fr;
+          gap: 12px;
+        }
+        .clock .n {
+          font-size: 1.2rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="masthead">
+        <h1>Uganda in <em>Five</em></h1>
+        <div class="date">
+          <span class="day" id="dateDay">—</span>
+          <span id="dateFull"></span>
+        </div>
+      </div>
+
+      <p class="strapline">
+        Today's Uganda headlines from Monitor, sorted by how long each one takes
+        to read. Tap a story to mark it read.
+      </p>
+      <p class="strapline" id="statusLine" style="display: none"></p>
+
+      <div class="controls">
+        <div class="budget">
+          <strong id="remainingCount">0</strong> stories &middot;
+          <strong id="remainingMin">0</strong> min of reading left
+        </div>
+        <div class="toggle">
+          <button class="active" data-filter="under5">Under 5 min</button>
+          <button data-filter="all">All stories</button>
+        </div>
+      </div>
+
+      <div class="stories" id="storyList"></div>
+
+      <footer>
+        Loaded from <code>digest.json</code>, produced by
+        <code>scrape_monitor.py</code>. Reading times are estimates (≈200 wpm) —
+        "Full read" pieces are Monitor's longer PRIME features. Run the script
+        (or its scheduled job) again any time to refresh this file with the
+        day's current headlines. Tap a headline to open the real article on
+        <a
+          href="https://www.monitor.co.ug/uganda"
+          target="_blank"
+          rel="noopener"
+          >monitor.co.ug</a
+        >.
+      </footer>
+    </div>
+
+    <script>
+      let stories = [];
+
+      const listEl = document.getElementById("storyList");
+      const remainingCountEl = document.getElementById("remainingCount");
+      const remainingMinEl = document.getElementById("remainingMin");
+      const toggleBtns = document.querySelectorAll(".toggle button");
+      const statusLine = document.getElementById("statusLine");
+      const dateDay = document.getElementById("dateDay");
+      const dateFull = document.getElementById("dateFull");
+
+      let filter = "under5";
+      const readSet = new Set();
+
+      async function loadDigest() {
+        try {
+          const res = await fetch("./digest.json", { cache: "no-store" });
+          if (!res.ok) throw new Error("HTTP " + res.status);
+          const data = await res.json();
+          stories = data.stories || [];
+
+          if (data.date_display) {
+            const [day, ...rest] = data.date_display.split(", ");
+            dateDay.textContent = day || "";
+            dateFull.textContent = rest.join(", ") || "";
+          }
+
+          if (stories.length === 0) {
+            statusLine.textContent =
+              "digest.json loaded but contained no stories — try re-running scrape_monitor.py.";
+            statusLine.style.display = "block";
+          }
+        } catch (err) {
+          statusLine.textContent =
+            "Couldn't load digest.json (" +
+            err.message +
+            "). Run scrape_monitor.py to generate it, " +
+            "and make sure this page is served from the same folder (e.g. `python -m http.server`) " +
+            "rather than opened directly as a file — browsers block local file fetches otherwise.";
+          statusLine.style.display = "block";
+        }
+        render();
+      }
+
+      function render() {
+        listEl.innerHTML = "";
+        const visible = stories.filter(
+          (s) => filter === "all" || s.minutes <= 5,
+        );
+
+        visible.forEach((s, i) => {
+          const idx = stories.indexOf(s);
+          const el = document.createElement("div");
+          el.className = "story" + (readSet.has(idx) ? " read" : "");
+          el.innerHTML = `
+      <div class="clock"><span class="n">${s.minutes}</span><span class="u">min</span></div>
+      <div class="body">
+        <div class="tagrow">
+          <span class="tag">${s.tag}</span>
+          <span class="dot">&middot;</span>
+          <span class="stamp">${s.time}</span>
+        </div>
+        <h2>${s.title}</h2>
+        <p class="excerpt">${s.excerpt}</p>
+        <a class="readlink" href="${s.url}" target="_blank" rel="noopener" onclick="event.stopPropagation()">Read on Monitor &rarr;</a>
+      </div>
+    `;
+          el.addEventListener("click", () => {
+            if (readSet.has(idx)) readSet.delete(idx);
+            else readSet.add(idx);
+            render();
+          });
+          listEl.appendChild(el);
+        });
+
+        const unread = visible.filter((s) => !readSet.has(stories.indexOf(s)));
+        remainingCountEl.textContent = unread.length;
+        remainingMinEl.textContent = unread.reduce(
+          (sum, s) => sum + s.minutes,
+          0,
+        );
+      }
+
+      toggleBtns.forEach((btn) => {
+        btn.addEventListener("click", () => {
+          toggleBtns.forEach((b) => b.classList.remove("active"));
+          btn.classList.add("active");
+          filter = btn.dataset.filter;
+          render();
+        });
+      });
+
+      loadDigest();
+    </script>
+  </body>
+</html>
