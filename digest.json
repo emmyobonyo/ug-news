@@ -1,10 +1,37 @@
 {
-  "generated_at": "2026-09-03T11:58:58.934769+00:00",
-  "date_display": "Thursday, September 3, 2026",
+  "generated_at": "2026-09-04T12:00:32.525561+00:00",
+  "date_display": "Friday, September 4, 2026",
   "stories": [
     {
       "tag": "Business · Full read",
-      "time": "1 hour ago",
+      "time": "6 hours ago",
+      "minutes": 6,
+      "title": "Accountants warned as govt arrears mount Finance",
+      "excerpt": "Full text requires a Monitor subscription.",
+      "summary": "This is a premium (PRIME) Monitor article — the free preview doesn't include enough text to summarize here. Full text requires a Monitor subscription.",
+      "url": "https://www.monitor.co.ug/uganda/business/finance/accountants-warned-as-govt-arrears-mount-5583144"
+    },
+    {
+      "tag": "Business · Full read",
+      "time": "7 hours ago",
+      "minutes": 6,
+      "title": "Pearl Bank’s Shs1 trillion loan book tests growth appetite Finance",
+      "excerpt": "Full text requires a Monitor subscription.",
+      "summary": "This is a premium (PRIME) Monitor article — the free preview doesn't include enough text to summarize here. Full text requires a Monitor subscription.",
+      "url": "https://www.monitor.co.ug/uganda/business/finance/pearl-bank-s-shs1-trillion-loan-book-tests-growth-appetite-5583102"
+    },
+    {
+      "tag": "Business · Full read",
+      "time": "8 hours ago",
+      "minutes": 6,
+      "title": "Tribunal rules against URA for missing 90-day objection deadline Finance",
+      "excerpt": "Full text requires a Monitor subscription.",
+      "summary": "This is a premium (PRIME) Monitor article — the free preview doesn't include enough text to summarize here. Full text requires a Monitor subscription.",
+      "url": "https://www.monitor.co.ug/uganda/business/finance/tribunal-rules-against-ura-for-missing-90-day-objection-deadline-5583078"
+    },
+    {
+      "tag": "Business · Full read",
+      "time": "Yesterday",
       "minutes": 6,
       "title": "How Uganda’s stock market is making people rich Markets",
       "excerpt": "Full text requires a Monitor subscription.",
@@ -13,7 +40,7 @@
     },
     {
       "tag": "Business · Full read",
-      "time": "2 hours ago",
+      "time": "Yesterday",
       "minutes": 6,
       "title": "Kenya's maize import window: Are Ugandan grain traders cashing in? Markets",
       "excerpt": "Full text requires a Monitor subscription.",
@@ -22,7 +49,7 @@
     },
     {
       "tag": "Business · Full read",
-      "time": "8 hours ago",
+      "time": "Yesterday",
       "minutes": 6,
       "title": "DMC taxis have to go. Here is why Auto",
       "excerpt": "Full text requires a Monitor subscription.",
@@ -31,7 +58,7 @@
     },
     {
       "tag": "Business · Full read",
-      "time": "8 hours ago",
+      "time": "Yesterday",
       "minutes": 6,
       "title": "What is a driveshaft centre bearing? Auto",
       "excerpt": "Full text requires a Monitor subscription.",
@@ -40,7 +67,7 @@
     },
     {
       "tag": "Business · Full read",
-      "time": "8 hours ago",
+      "time": "Yesterday",
       "minutes": 6,
       "title": "What happens when a thermostat gets stuck? Auto",
       "excerpt": "Full text requires a Monitor subscription.",
@@ -49,7 +76,7 @@
     },
     {
       "tag": "Business · Full read",
-      "time": "8 hours ago",
+      "time": "Yesterday",
       "minutes": 6,
       "title": "Can a bad EVAP purge valve affect my car? Auto",
       "excerpt": "Full text requires a Monitor subscription.",
@@ -58,39 +85,12 @@
     },
     {
       "tag": "Business · Full read",
-      "time": "Yesterday",
+      "time": "Sep 02",
       "minutes": 6,
       "title": "URA loses over Shs1 billion in Medisell tax dispute Finance",
       "excerpt": "Full text requires a Monitor subscription.",
       "summary": "This is a premium (PRIME) Monitor article — the free preview doesn't include enough text to summarize here. Full text requires a Monitor subscription.",
       "url": "https://www.monitor.co.ug/uganda/business/finance/ura-loses-over-shs1-billion-in-medisell-tax-dispute-5580488"
-    },
-    {
-      "tag": "Business · Full read",
-      "time": "Yesterday",
-      "minutes": 6,
-      "title": "Shs246b revenue shortfall puts pressure on govt finances Finance",
-      "excerpt": "Full text requires a Monitor subscription.",
-      "summary": "This is a premium (PRIME) Monitor article — the free preview doesn't include enough text to summarize here. Full text requires a Monitor subscription.",
-      "url": "https://www.monitor.co.ug/uganda/business/finance/shs246b-revenue-shortfall-puts-pressure-on-govt-finances--5580468"
-    },
-    {
-      "tag": "Business · Full read",
-      "time": "Sep 01",
-      "minutes": 6,
-      "title": "How Uganda’s rich avoid their debts legally Prosper",
-      "excerpt": "Full text requires a Monitor subscription.",
-      "summary": "This is a premium (PRIME) Monitor article — the free preview doesn't include enough text to summarize here. Full text requires a Monitor subscription.",
-      "url": "https://www.monitor.co.ug/uganda/business/prosper/how-uganda-s-rich-avoid-their-debts-legally-5577436"
-    },
-    {
-      "tag": "Business · Full read",
-      "time": "Sep 01",
-      "minutes": 6,
-      "title": "When trust becomes the cost of going digital Prosper",
-      "excerpt": "Full text requires a Monitor subscription.",
-      "summary": "This is a premium (PRIME) Monitor article — the free preview doesn't include enough text to summarize here. Full text requires a Monitor subscription.",
-      "url": "https://www.monitor.co.ug/uganda/business/prosper/when-trust-becomes-the-cost-of-going-digital-5577334"
     }
   ]
 }
