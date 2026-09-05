@@ -1,10 +1,28 @@
 {
-  "generated_at": "2026-09-04T12:00:32.525561+00:00",
-  "date_display": "Friday, September 4, 2026",
+  "generated_at": "2026-09-05T11:10:06.059818+00:00",
+  "date_display": "Saturday, September 5, 2026",
   "stories": [
     {
       "tag": "Business · Full read",
-      "time": "6 hours ago",
+      "time": "5 hours ago",
+      "minutes": 6,
+      "title": "Inside the Harrier grille theft racket in Uganda Auto",
+      "excerpt": "Full text requires a Monitor subscription.",
+      "summary": "This is a premium (PRIME) Monitor article — the free preview doesn't include enough text to summarize here. Full text requires a Monitor subscription.",
+      "url": "https://www.monitor.co.ug/uganda/business/auto/inside-the-harrier-grille-theft-racket-in-uganda-5584360"
+    },
+    {
+      "tag": "Business · Full read",
+      "time": "5 hours ago",
+      "minutes": 6,
+      "title": "Why Uganda still lacks a commercial paper market Finance",
+      "excerpt": "Full text requires a Monitor subscription.",
+      "summary": "This is a premium (PRIME) Monitor article — the free preview doesn't include enough text to summarize here. Full text requires a Monitor subscription.",
+      "url": "https://www.monitor.co.ug/uganda/business/finance/why-uganda-still-lacks-a-commercial-paper-market-5584362"
+    },
+    {
+      "tag": "Business · Full read",
+      "time": "Yesterday",
       "minutes": 6,
       "title": "Accountants warned as govt arrears mount Finance",
       "excerpt": "Full text requires a Monitor subscription.",
@@ -13,7 +31,7 @@
     },
     {
       "tag": "Business · Full read",
-      "time": "7 hours ago",
+      "time": "Yesterday",
       "minutes": 6,
       "title": "Pearl Bank’s Shs1 trillion loan book tests growth appetite Finance",
       "excerpt": "Full text requires a Monitor subscription.",
@@ -22,7 +40,7 @@
     },
     {
       "tag": "Business · Full read",
-      "time": "8 hours ago",
+      "time": "Yesterday",
       "minutes": 6,
       "title": "Tribunal rules against URA for missing 90-day objection deadline Finance",
       "excerpt": "Full text requires a Monitor subscription.",
@@ -31,7 +49,7 @@
     },
     {
       "tag": "Business · Full read",
-      "time": "Yesterday",
+      "time": "Sep 03",
       "minutes": 6,
       "title": "How Uganda’s stock market is making people rich Markets",
       "excerpt": "Full text requires a Monitor subscription.",
@@ -40,7 +58,7 @@
     },
     {
       "tag": "Business · Full read",
-      "time": "Yesterday",
+      "time": "Sep 03",
       "minutes": 6,
       "title": "Kenya's maize import window: Are Ugandan grain traders cashing in? Markets",
       "excerpt": "Full text requires a Monitor subscription.",
@@ -49,7 +67,7 @@
     },
     {
       "tag": "Business · Full read",
-      "time": "Yesterday",
+      "time": "Sep 03",
       "minutes": 6,
       "title": "DMC taxis have to go. Here is why Auto",
       "excerpt": "Full text requires a Monitor subscription.",
@@ -58,7 +76,7 @@
     },
     {
       "tag": "Business · Full read",
-      "time": "Yesterday",
+      "time": "Sep 03",
       "minutes": 6,
       "title": "What is a driveshaft centre bearing? Auto",
       "excerpt": "Full text requires a Monitor subscription.",
@@ -67,30 +85,12 @@
     },
     {
       "tag": "Business · Full read",
-      "time": "Yesterday",
+      "time": "Sep 03",
       "minutes": 6,
       "title": "What happens when a thermostat gets stuck? Auto",
       "excerpt": "Full text requires a Monitor subscription.",
       "summary": "This is a premium (PRIME) Monitor article — the free preview doesn't include enough text to summarize here. Full text requires a Monitor subscription.",
       "url": "https://www.monitor.co.ug/uganda/business/auto/what-happens-when-a-thermostat-gets-stuck--5581524"
-    },
-    {
-      "tag": "Business · Full read",
-      "time": "Yesterday",
-      "minutes": 6,
-      "title": "Can a bad EVAP purge valve affect my car? Auto",
-      "excerpt": "Full text requires a Monitor subscription.",
-      "summary": "This is a premium (PRIME) Monitor article — the free preview doesn't include enough text to summarize here. Full text requires a Monitor subscription.",
-      "url": "https://www.monitor.co.ug/uganda/business/auto/can-a-bad-evap-purge-valve-affect-my-car--5581510"
-    },
-    {
-      "tag": "Business · Full read",
-      "time": "Sep 02",
-      "minutes": 6,
-      "title": "URA loses over Shs1 billion in Medisell tax dispute Finance",
-      "excerpt": "Full text requires a Monitor subscription.",
-      "summary": "This is a premium (PRIME) Monitor article — the free preview doesn't include enough text to summarize here. Full text requires a Monitor subscription.",
-      "url": "https://www.monitor.co.ug/uganda/business/finance/ura-loses-over-shs1-billion-in-medisell-tax-dispute-5580488"
     }
   ]
 }
