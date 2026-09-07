@@ -1,10 +1,46 @@
 {
-  "generated_at": "2026-09-06T11:33:33.144264+00:00",
-  "date_display": "Sunday, September 6, 2026",
+  "generated_at": "2026-09-07T13:21:12.835631+00:00",
+  "date_display": "Monday, September 7, 2026",
   "stories": [
     {
+      "tag": "Business",
+      "time": "Recently",
+      "minutes": 3,
+      "title": "Only seven of 90 large saccos licensed ahead of BoU deadline Markets 9 hours ago Listen",
+      "excerpt": "Read the full story on Monitor.",
+      "summary": "Read the full story on Monitor.",
+      "url": "https://www.monitor.co.ug/uganda/business/markets/only-seven-of-90-large-saccos-licensed-ahead-of-bou-deadline--5585564"
+    },
+    {
       "tag": "Business · Full read",
-      "time": "Yesterday",
+      "time": "2 hours ago",
+      "minutes": 6,
+      "title": "How Uganda’s rich avoid their debts legally Prosper",
+      "excerpt": "Full text requires a Monitor subscription.",
+      "summary": "This is a premium (PRIME) Monitor article — the free preview doesn't include enough text to summarize here. Full text requires a Monitor subscription.",
+      "url": "https://www.monitor.co.ug/uganda/business/prosper/how-uganda-s-rich-avoid-their-debts-legally-5577436"
+    },
+    {
+      "tag": "Business · Full read",
+      "time": "Recently",
+      "minutes": 6,
+      "title": "Uganda Clays is profitable again: Can it finally put its troubled years behind it? Markets 9 hours ago Listen",
+      "excerpt": "Full text requires a Monitor subscription.",
+      "summary": "This is a premium (PRIME) Monitor article — the free preview doesn't include enough text to summarize here. Full text requires a Monitor subscription.",
+      "url": "https://www.monitor.co.ug/uganda/business/markets/uganda-clays-is-profitable-again-can-it-finally-put-its-troubled-years-behind-it--5585594"
+    },
+    {
+      "tag": "Business · Full read",
+      "time": "Recently",
+      "minutes": 6,
+      "title": "Why big hotel brands are betting on Uganda Prosper 22 hours ago Listen",
+      "excerpt": "Full text requires a Monitor subscription.",
+      "summary": "This is a premium (PRIME) Monitor article — the free preview doesn't include enough text to summarize here. Full text requires a Monitor subscription.",
+      "url": "https://www.monitor.co.ug/uganda/business/prosper/why-big-hotel-brands-are-betting-on-uganda-5585810"
+    },
+    {
+      "tag": "Business · Full read",
+      "time": "Sep 05",
       "minutes": 6,
       "title": "Inside the Harrier grille theft racket in Uganda Auto",
       "excerpt": "Full text requires a Monitor subscription.",
@@ -13,7 +49,7 @@
     },
     {
       "tag": "Business · Full read",
-      "time": "Yesterday",
+      "time": "Sep 05",
       "minutes": 6,
       "title": "Why Uganda still lacks a commercial paper market Finance",
       "excerpt": "Full text requires a Monitor subscription.",
@@ -55,42 +91,6 @@
       "excerpt": "Full text requires a Monitor subscription.",
       "summary": "This is a premium (PRIME) Monitor article — the free preview doesn't include enough text to summarize here. Full text requires a Monitor subscription.",
       "url": "https://www.monitor.co.ug/uganda/business/markets/how-uganda-s-stock-market-is-making-people-rich--5581980"
-    },
-    {
-      "tag": "Business · Full read",
-      "time": "Sep 03",
-      "minutes": 6,
-      "title": "Kenya's maize import window: Are Ugandan grain traders cashing in? Markets",
-      "excerpt": "Full text requires a Monitor subscription.",
-      "summary": "This is a premium (PRIME) Monitor article — the free preview doesn't include enough text to summarize here. Full text requires a Monitor subscription.",
-      "url": "https://www.monitor.co.ug/uganda/business/markets/regional-demand-local-strain-kenya-s-maize-rush-triggers-price-hikes-in-uganda-5581932"
-    },
-    {
-      "tag": "Business · Full read",
-      "time": "Sep 03",
-      "minutes": 6,
-      "title": "DMC taxis have to go. Here is why Auto",
-      "excerpt": "Full text requires a Monitor subscription.",
-      "summary": "This is a premium (PRIME) Monitor article — the free preview doesn't include enough text to summarize here. Full text requires a Monitor subscription.",
-      "url": "https://www.monitor.co.ug/uganda/business/auto/dmc-taxis-have-to-go-here-is-why-5581546"
-    },
-    {
-      "tag": "Business · Full read",
-      "time": "Sep 03",
-      "minutes": 6,
-      "title": "What is a driveshaft centre bearing? Auto",
-      "excerpt": "Full text requires a Monitor subscription.",
-      "summary": "This is a premium (PRIME) Monitor article — the free preview doesn't include enough text to summarize here. Full text requires a Monitor subscription.",
-      "url": "https://www.monitor.co.ug/uganda/business/auto/what-is-a-driveshaft-centre-bearing--5581536"
-    },
-    {
-      "tag": "Business · Full read",
-      "time": "Sep 03",
-      "minutes": 6,
-      "title": "What happens when a thermostat gets stuck? Auto",
-      "excerpt": "Full text requires a Monitor subscription.",
-      "summary": "This is a premium (PRIME) Monitor article — the free preview doesn't include enough text to summarize here. Full text requires a Monitor subscription.",
-      "url": "https://www.monitor.co.ug/uganda/business/auto/what-happens-when-a-thermostat-gets-stuck--5581524"
     }
   ]
 }
