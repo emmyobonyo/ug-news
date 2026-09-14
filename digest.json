@@ -1,7 +1,16 @@
 {
-  "generated_at": "2026-09-13T12:35:47.919626+00:00",
-  "date_display": "Sunday, September 13, 2026",
+  "generated_at": "2026-09-14T13:43:51.736158+00:00",
+  "date_display": "Monday, September 14, 2026",
   "stories": [
+    {
+      "tag": "Business",
+      "time": "Recently",
+      "minutes": 3,
+      "title": "Hoima hotel, housing shortage opens investment opportunity Markets 8 hours ago Listen",
+      "excerpt": "Read the full story on Monitor.",
+      "summary": "Read the full story on Monitor.",
+      "url": "https://www.monitor.co.ug/uganda/business/markets/hoima-hotel-housing-shortage-opens-investment-opportunity-5594094"
+    },
     {
       "tag": "Business",
       "time": "Recently",
@@ -12,13 +21,22 @@
       "url": "https://www.monitor.co.ug/uganda/business/markets/use-turnover-nearly-doubles-to-shs102b-as-equities-rally-5589288"
     },
     {
-      "tag": "Business",
+      "tag": "Business · Full read",
       "time": "Recently",
-      "minutes": 3,
-      "title": "KCCA’s revenue bet: Help businesses survive, then tax their growth Markets Sep 09 Listen",
-      "excerpt": "Read the full story on Monitor.",
-      "summary": "Read the full story on Monitor.",
-      "url": "https://www.monitor.co.ug/uganda/business/markets/kcca-s-revenue-bet-help-businesses-survive-then-tax-their-growth--5588172"
+      "minutes": 6,
+      "title": "Tax red flags that will put businesses in trouble in 2026/27 Markets 7 hours ago Listen",
+      "excerpt": "Full text requires a Monitor subscription.",
+      "summary": "This is a premium (PRIME) Monitor article — the free preview doesn't include enough text to summarize here. Full text requires a Monitor subscription.",
+      "url": "https://www.monitor.co.ug/uganda/business/markets/tax-red-flags-that-will-put-businesses-in-trouble-in-2026-27-5594104"
+    },
+    {
+      "tag": "Business · Full read",
+      "time": "Recently",
+      "minutes": 6,
+      "title": "Carrefour sales grow to Shs157b, but losses persist Markets 8 hours ago Listen",
+      "excerpt": "Full text requires a Monitor subscription.",
+      "summary": "This is a premium (PRIME) Monitor article — the free preview doesn't include enough text to summarize here. Full text requires a Monitor subscription.",
+      "url": "https://www.monitor.co.ug/uganda/business/markets/carrefour-sales-grow-to-shs157b-but-losses-persist-5594100"
     },
     {
       "tag": "Business · Full read",
@@ -73,24 +91,6 @@
       "excerpt": "Full text requires a Monitor subscription.",
       "summary": "This is a premium (PRIME) Monitor article — the free preview doesn't include enough text to summarize here. Full text requires a Monitor subscription.",
       "url": "https://www.monitor.co.ug/uganda/business/auto/15-years-on-the-mercedes-c-class-still-packs-a-punch-5589730"
-    },
-    {
-      "tag": "Business · Full read",
-      "time": "Sep 10",
-      "minutes": 6,
-      "title": "Can a faulty differential breather cause expensive damage? Auto",
-      "excerpt": "Full text requires a Monitor subscription.",
-      "summary": "This is a premium (PRIME) Monitor article — the free preview doesn't include enough text to summarize here. Full text requires a Monitor subscription.",
-      "url": "https://www.monitor.co.ug/uganda/business/auto/can-a-faulty-differential-breather-cause-expensive-damage--5589704"
-    },
-    {
-      "tag": "Business · Full read",
-      "time": "Sep 10",
-      "minutes": 6,
-      "title": "Is my garage swapping parts behind my back? Auto",
-      "excerpt": "Full text requires a Monitor subscription.",
-      "summary": "This is a premium (PRIME) Monitor article — the free preview doesn't include enough text to summarize here. Full text requires a Monitor subscription.",
-      "url": "https://www.monitor.co.ug/uganda/business/auto/is-my-garage-swapping-parts-behind-my-back--5589630"
     }
   ]
 }
