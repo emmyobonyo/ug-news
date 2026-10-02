@@ -1,10 +1,37 @@
 {
-  "generated_at": "2026-10-01T14:17:36.285476+00:00",
-  "date_display": "Thursday, October 1, 2026",
+  "generated_at": "2026-10-02T13:40:12.470275+00:00",
+  "date_display": "Friday, October 2, 2026",
   "stories": [
     {
       "tag": "Business",
-      "time": "10 hours ago",
+      "time": "Recently",
+      "minutes": 3,
+      "title": "Inflation remains below Bo",
+      "excerpt": "U’s 5% target: But what is happening underneath? Markets 9 hours ago Listen",
+      "summary": "U’s 5% target: But what is happening underneath? Markets 9 hours ago Listen",
+      "url": "https://www.monitor.co.ug/uganda/business/markets/inflation-remains-below-bou-s-5-target-but-what-is-happening-underneath--5616406"
+    },
+    {
+      "tag": "Business",
+      "time": "Recently",
+      "minutes": 3,
+      "title": "UNBS targets billing errors with new water metre standards Markets 9 hours ago Listen",
+      "excerpt": "Read the full story on Monitor.",
+      "summary": "Read the full story on Monitor.",
+      "url": "https://www.monitor.co.ug/uganda/business/markets/unbs-targets-billing-errors-with-new-water-metre-standards-5616360"
+    },
+    {
+      "tag": "Business",
+      "time": "Yesterday",
+      "minutes": 3,
+      "title": "Three deadlines, low turnout: Did BoU underestimate large Sacco licensing? Markets",
+      "excerpt": "Read the full story on Monitor.",
+      "summary": "Read the full story on Monitor.",
+      "url": "https://www.monitor.co.ug/uganda/business/markets/three-deadlines-low-turnout-did-bou-underestimate-large-sacco-licensing--5614870"
+    },
+    {
+      "tag": "Business",
+      "time": "Yesterday",
       "minutes": 3,
       "title": "Quality Chemical expands drug manufacturing with influenza sub-licence Markets",
       "excerpt": "Read the full story on Monitor.",
@@ -21,17 +48,8 @@
       "url": "https://www.monitor.co.ug/uganda/business/markets/weather-driven-food-prices-push-inflation-to-4-7--5614806"
     },
     {
-      "tag": "Business",
-      "time": "Yesterday",
-      "minutes": 3,
-      "title": "From aid to investment: US resets its Uganda economic pitch Markets",
-      "excerpt": "Read the full story on Monitor.",
-      "summary": "Read the full story on Monitor.",
-      "url": "https://www.monitor.co.ug/uganda/business/markets/from-aid-to-investment-us-resets-its-uganda-economic-pitch-5613520"
-    },
-    {
       "tag": "Business · Full read",
-      "time": "10 hours ago",
+      "time": "Yesterday",
       "minutes": 6,
       "title": "From Shs800 a ride: Why commuters are loving electric buses Auto",
       "excerpt": "Full text requires a Monitor subscription.",
@@ -40,7 +58,7 @@
     },
     {
       "tag": "Business · Full read",
-      "time": "10 hours ago",
+      "time": "Yesterday",
       "minutes": 6,
       "title": "Toyota C-HR Hybrid: Small car, clever fuel-saving system Auto",
       "excerpt": "Full text requires a Monitor subscription.",
@@ -49,7 +67,7 @@
     },
     {
       "tag": "Business · Full read",
-      "time": "10 hours ago",
+      "time": "Yesterday",
       "minutes": 6,
       "title": "Tank 500 or 2018 Prado? Auto",
       "excerpt": "Full text requires a Monitor subscription.",
@@ -58,7 +76,7 @@
     },
     {
       "tag": "Business · Full read",
-      "time": "11 hours ago",
+      "time": "Yesterday",
       "minutes": 6,
       "title": "What does a knock sensor actually detect? Auto",
       "excerpt": "Full text requires a Monitor subscription.",
@@ -67,30 +85,12 @@
     },
     {
       "tag": "Business · Full read",
-      "time": "11 hours ago",
+      "time": "Yesterday",
       "minutes": 6,
       "title": "Which is the better choice between the 2025 and 2026 RAV4? Auto",
       "excerpt": "Full text requires a Monitor subscription.",
       "summary": "This is a premium (PRIME) Monitor article — the free preview doesn't include enough text to summarize here. Full text requires a Monitor subscription.",
       "url": "https://www.monitor.co.ug/uganda/business/auto/which-is-the-better-choice-between-the-2025-and-2026-rav4--5615126"
-    },
-    {
-      "tag": "Business · Full read",
-      "time": "Sep 29",
-      "minutes": 7,
-      "title": "We lose markets because we can't supply, says Alinda Prosper",
-      "excerpt": "A woman waits for customers in Nakasero Market. Primary commodities still leave Uganda in raw form instead of being converted into higher-value products…",
-      "summary": "Primary commodities still leave Uganda in raw form instead of being converted into higher-value products before export. Hez Kimoomi Alinda, executive director and chief executive officer of the Uganda Free Zones and Export Promotions Authority, expounds on trade, market access, and export standards.“When people describe this country’s agriculture as ‘full of potential,’ I want to interrupt them, because I use that word very deliberately. But primary commodities still leave Uganda in raw form instead of being converted into higher-value products before export.",
-      "url": "https://www.monitor.co.ug/uganda/business/prosper/we-lose-markets-because-we-can-t-supply-says-alinda-5613016"
-    },
-    {
-      "tag": "Business · Full read",
-      "time": "Sep 29",
-      "minutes": 10,
-      "title": "Why carbon credits are hard to buy and sell Prosper",
-      "excerpt": "Motorists drive through Mabira forest in 2023. Reduced U.S. climate financing and financial strain tied to global conflicts have left fewer companies with…",
-      "summary": "Reduced U.S. climate financing and financial strain tied to global conflicts have left fewer companies with spare cash to spend on carbon credits. PHOTO/ MICHAEL KAKUMIRIZI East Africa is excited about carbon credits now. Five years ago, a developer could set up a carbon project, get it checked by an outside auditor, and start selling credits without much trouble.",
-      "url": "https://www.monitor.co.ug/uganda/business/prosper/why-carbon-credits-are-hard-to-buy-and-sell-5613096"
     }
   ]
 }
