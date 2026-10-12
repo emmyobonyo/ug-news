@@ -1,7 +1,16 @@
 {
-  "generated_at": "2026-10-11T13:50:29.322612+00:00",
-  "date_display": "Sunday, October 11, 2026",
+  "generated_at": "2026-10-12T16:33:48.367839+00:00",
+  "date_display": "Monday, October 12, 2026",
   "stories": [
+    {
+      "tag": "Business",
+      "time": "7 hours ago",
+      "minutes": 3,
+      "title": "Falling Treasury bill yields drive investors to the stock market Markets",
+      "excerpt": "Read the full story on Monitor.",
+      "summary": "Read the full story on Monitor.",
+      "url": "https://www.monitor.co.ug/uganda/business/markets/falling-treasury-bill-yields-drive-investors-to-the-stock-market-5628642"
+    },
     {
       "tag": "Business",
       "time": "Oct 09",
@@ -12,13 +21,13 @@
       "url": "https://www.monitor.co.ug/uganda/business/finance/banks-ease-lending-to-households-but-tighten-credit-to-businesses--5624556"
     },
     {
-      "tag": "Business",
-      "time": "Oct 07",
-      "minutes": 3,
-      "title": "Tayebwa urges business leaders to embrace tax compliance, ethical practices Finance",
-      "excerpt": "Read the full story on Monitor.",
-      "summary": "Read the full story on Monitor.",
-      "url": "https://www.monitor.co.ug/uganda/business/finance/tayebwa-urges-business-leaders-to-embrace-tax-compliance-ethical-practices-5623380"
+      "tag": "Business · Full read",
+      "time": "12 hours ago",
+      "minutes": 6,
+      "title": "BoU legal exposure increases to Shs60b as litigation costs surge Markets",
+      "excerpt": "Full text requires a Monitor subscription.",
+      "summary": "This is a premium (PRIME) Monitor article — the free preview doesn't include enough text to summarize here. Full text requires a Monitor subscription.",
+      "url": "https://www.monitor.co.ug/uganda/business/markets/bou-legal-exposure-increases-to-shs60b-as-litigation-costs-surge-5628162"
     },
     {
       "tag": "Business · Full read",
@@ -82,15 +91,6 @@
       "excerpt": "Full text requires a Monitor subscription.",
       "summary": "This is a premium (PRIME) Monitor article — the free preview doesn't include enough text to summarize here. Full text requires a Monitor subscription.",
       "url": "https://www.monitor.co.ug/uganda/business/markets/a-family-dispute-threatening-bagalaaliwo-s-multi-billion-shilling-business-empire--5621968"
-    },
-    {
-      "tag": "Business · Full read",
-      "time": "Oct 06",
-      "minutes": 6,
-      "title": "Double squeeze: The fuel in the falling Uganda shilling Finance",
-      "excerpt": "Full text requires a Monitor subscription.",
-      "summary": "This is a premium (PRIME) Monitor article — the free preview doesn't include enough text to summarize here. Full text requires a Monitor subscription.",
-      "url": "https://www.monitor.co.ug/uganda/business/finance/double-squeeze-the-fuel-in-the-falling-uganda-shilling-5621130"
     }
   ]
 }
