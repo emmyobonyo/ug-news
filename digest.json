@@ -1,10 +1,19 @@
 {
-  "generated_at": "2026-10-15T12:30:45.258219+00:00",
-  "date_display": "Thursday, October 15, 2026",
+  "generated_at": "2026-10-16T12:08:18.598546+00:00",
+  "date_display": "Friday, October 16, 2026",
   "stories": [
     {
       "tag": "Business",
-      "time": "8 hours ago",
+      "time": "Recently",
+      "minutes": 3,
+      "title": "Private sector expands for 20th month as costs rise Markets 8 hours ago Listen",
+      "excerpt": "Read the full story on Monitor.",
+      "summary": "Read the full story on Monitor.",
+      "url": "https://www.monitor.co.ug/uganda/business/markets/private-sector-expands-for-20th-month-as-costs-rise--5633290"
+    },
+    {
+      "tag": "Business",
+      "time": "Yesterday",
       "minutes": 3,
       "title": "Govt gives mining firms two weeks to clear billions or lose license Markets",
       "excerpt": "Read the full story on Monitor.",
@@ -13,7 +22,7 @@
     },
     {
       "tag": "Business",
-      "time": "8 hours ago",
+      "time": "Yesterday",
       "minutes": 3,
       "title": "What will it take to get informal workers saving for retirement? Commodities",
       "excerpt": "Read the full story on Monitor.",
@@ -22,7 +31,7 @@
     },
     {
       "tag": "Business",
-      "time": "Yesterday",
+      "time": "Oct 14",
       "minutes": 3,
       "title": "What investors need to know about Dangote IPO Markets",
       "excerpt": "Read the full story on Monitor.",
@@ -33,6 +42,15 @@
       "tag": "Business · Full read",
       "time": "8 hours ago",
       "minutes": 6,
+      "title": "Between expansion and survival: Businesses could rethink borrowing Markets",
+      "excerpt": "Full text requires a Monitor subscription.",
+      "summary": "This is a premium (PRIME) Monitor article — the free preview doesn't include enough text to summarize here. Full text requires a Monitor subscription.",
+      "url": "https://www.monitor.co.ug/uganda/business/markets/between-expansion-and-survival-businesses-could-rethink-borrowing-5633332"
+    },
+    {
+      "tag": "Business · Full read",
+      "time": "Yesterday",
+      "minutes": 6,
       "title": "The RAV4 hybrid brings power and better fuel economy Auto",
       "excerpt": "Full text requires a Monitor subscription.",
       "summary": "This is a premium (PRIME) Monitor article — the free preview doesn't include enough text to summarize here. Full text requires a Monitor subscription.",
@@ -40,7 +58,7 @@
     },
     {
       "tag": "Business · Full read",
-      "time": "9 hours ago",
+      "time": "Yesterday",
       "minutes": 6,
       "title": "Can a bad ground strap cause strange electrical problems? Auto",
       "excerpt": "Full text requires a Monitor subscription.",
@@ -49,7 +67,7 @@
     },
     {
       "tag": "Business · Full read",
-      "time": "9 hours ago",
+      "time": "Yesterday",
       "minutes": 6,
       "title": "Will bigger rims and LED lights land me in trouble? Auto",
       "excerpt": "Full text requires a Monitor subscription.",
@@ -58,7 +76,7 @@
     },
     {
       "tag": "Business · Full read",
-      "time": "Yesterday",
+      "time": "Oct 14",
       "minutes": 6,
       "title": "Minister Butime wants tourism governance reforms, defers UTA elections Markets",
       "excerpt": "Full text requires a Monitor subscription.",
@@ -73,24 +91,6 @@
       "excerpt": "A plate of roasted beef with salad. Roast beef salad is rich in lean protein from the roast beef, which helps keep you full and satisfied. PHOTO/MICHAEL…",
       "summary": "The affordability challenge is unfolding alongside changes in Uganda’s food environment, where packaged, processed and ultra-processed foods are increasingly available to consumers. Research published in September 2026 found that 72.1 per cent of the 1,083 packaged processed and ultra-processed food products assessed in Uganda were ultra-processed. PHOTO/ MICHAEL KAKUMIRIZI Changing food environment The consequences of Uganda’s changing food environment extend beyond individual health, with the growing burden of NCDs also imposing costs on households, businesses and the wider economy.",
       "url": "https://www.monitor.co.ug/uganda/business/prosper/the-price-of-eating-well-5628762"
-    },
-    {
-      "tag": "Business · Full read",
-      "time": "Oct 13",
-      "minutes": 8,
-      "title": "30 years of loyalty: Why Kabaga refused other jobs Prosper",
-      "excerpt": "Ms Josephine Kabaga has worked with Stanbic Bank for over 30 years. PHOTO/ COURTESY",
-      "summary": "That year, Standard Bank Group started talks to acquire ANZ Grindlays Bank—earlier simply called Grindlays Bank. When Standard Bank Group acquired the Bank, the staff numbers increased. The Bank introduced retail banking.",
-      "url": "https://www.monitor.co.ug/uganda/business/prosper/30-years-of-loyalty-why-kabaga-refused-other-jobs-5628678"
-    },
-    {
-      "tag": "Business · Full read",
-      "time": "Oct 13",
-      "minutes": 10,
-      "title": "The wedding pledge trap Prosper",
-      "excerpt": "A bride and groom exchange rings during a wedding. Couples planning to get married should be realistic about their wedding budgets to avoid relying on…",
-      "summary": "Decor and tents, Shs4 million to Shs7 million. Photography and videography, Shs2.5 million. Their total spend was Shs11.3 million.",
-      "url": "https://www.monitor.co.ug/uganda/business/prosper/the-wedding-pledge-trap-5628700"
     }
   ]
 }
