@@ -1,10 +1,19 @@
 {
-  "generated_at": "2026-10-18T11:58:28.063135+00:00",
-  "date_display": "Sunday, October 18, 2026",
+  "generated_at": "2026-10-19T14:25:52.509113+00:00",
+  "date_display": "Monday, October 19, 2026",
   "stories": [
     {
       "tag": "Business",
-      "time": "Yesterday",
+      "time": "10 hours ago",
+      "minutes": 3,
+      "title": "Africa's economic resilience masks rising inflation threat and fragile buffers Finance",
+      "excerpt": "Read the full story on Monitor.",
+      "summary": "Read the full story on Monitor.",
+      "url": "https://www.monitor.co.ug/uganda/business/finance/africa-s-economic-resilience-masks-rising-inflation-threat-and-fragile-buffers-imf-warns-5637142"
+    },
+    {
+      "tag": "Business",
+      "time": "Oct 17",
       "minutes": 3,
       "title": "Banks plan to unlock mineral wealth for $500b economy Finance",
       "excerpt": "Read the full story on Monitor.",
@@ -39,13 +48,22 @@
       "url": "https://www.monitor.co.ug/uganda/business/commodities/what-will-it-take-to-get-informal-workers-saving-for-retirement--5631990"
     },
     {
-      "tag": "Business",
-      "time": "Oct 14",
-      "minutes": 3,
-      "title": "What investors need to know about Dangote IPO Markets",
-      "excerpt": "Read the full story on Monitor.",
-      "summary": "Read the full story on Monitor.",
-      "url": "https://www.monitor.co.ug/uganda/business/markets/what-investors-need-to-know-about-dangote-ipo-5630682"
+      "tag": "Business · Full read",
+      "time": "6 hours ago",
+      "minutes": 6,
+      "title": "Defending the shilling creates a costly trade-offs Markets",
+      "excerpt": "Full text requires a Monitor subscription.",
+      "summary": "This is a premium (PRIME) Monitor article — the free preview doesn't include enough text to summarize here. Full text requires a Monitor subscription.",
+      "url": "https://www.monitor.co.ug/uganda/business/markets/defending-the-shilling-creates-a-costly-trade-offs-5637396"
+    },
+    {
+      "tag": "Business · Full read",
+      "time": "6 hours ago",
+      "minutes": 6,
+      "title": "Govt bought fuel security in KPC: What do the numbers reveal now? Markets",
+      "excerpt": "Full text requires a Monitor subscription.",
+      "summary": "This is a premium (PRIME) Monitor article — the free preview doesn't include enough text to summarize here. Full text requires a Monitor subscription.",
+      "url": "https://www.monitor.co.ug/uganda/business/markets/govt-bought-fuel-security-in-kpc-what-do-the-numbers-reveal-now--5637216"
     },
     {
       "tag": "Business · Full read",
@@ -73,24 +91,6 @@
       "excerpt": "Full text requires a Monitor subscription.",
       "summary": "This is a premium (PRIME) Monitor article — the free preview doesn't include enough text to summarize here. Full text requires a Monitor subscription.",
       "url": "https://www.monitor.co.ug/uganda/business/auto/can-a-bad-ground-strap-cause-strange-electrical-problems--5632306"
-    },
-    {
-      "tag": "Business · Full read",
-      "time": "Oct 15",
-      "minutes": 6,
-      "title": "Will bigger rims and LED lights land me in trouble? Auto",
-      "excerpt": "Full text requires a Monitor subscription.",
-      "summary": "This is a premium (PRIME) Monitor article — the free preview doesn't include enough text to summarize here. Full text requires a Monitor subscription.",
-      "url": "https://www.monitor.co.ug/uganda/business/auto/will-bigger-rims-and-led-lights-land-me-in-trouble--5632286"
-    },
-    {
-      "tag": "Business · Full read",
-      "time": "Oct 14",
-      "minutes": 6,
-      "title": "Minister Butime wants tourism governance reforms, defers UTA elections Markets",
-      "excerpt": "Full text requires a Monitor subscription.",
-      "summary": "This is a premium (PRIME) Monitor article — the free preview doesn't include enough text to summarize here. Full text requires a Monitor subscription.",
-      "url": "https://www.monitor.co.ug/uganda/business/markets/minister-butime-wants-tourism-governance-reforms-defers-uta-elections--5630702"
     }
   ]
 }
