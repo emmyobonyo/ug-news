@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-24T11:53:02.287642+00:00",
-  "date_display": "Saturday, October 24, 2026",
+  "generated_at": "2026-10-25T12:23:35.419635+00:00",
+  "date_display": "Sunday, October 25, 2026",
   "stories": [
     {
       "tag": "Business",
-      "time": "Yesterday",
+      "time": "Oct 23",
       "minutes": 3,
       "title": "Uganda export earnings up 36% in August on higher gold receipts Commodities",
       "excerpt": "Read the full story on Monitor.",
@@ -13,7 +13,7 @@
     },
     {
       "tag": "Business",
-      "time": "Yesterday",
+      "time": "Oct 23",
       "minutes": 3,
       "title": "Shilling weakens to Shs4,200 despite BoU interventions Finance",
       "excerpt": "Read the full story on Monitor.",
@@ -22,7 +22,7 @@
     },
     {
       "tag": "Business",
-      "time": "Yesterday",
+      "time": "Oct 23",
       "minutes": 3,
       "title": "Why Uganda needs depositary receipts: Lessons from Dangote IPO Finance",
       "excerpt": "Read the full story on Monitor.",
@@ -31,7 +31,7 @@
     },
     {
       "tag": "Business",
-      "time": "Yesterday",
+      "time": "Oct 23",
       "minutes": 3,
       "title": "Five ways to keep safe online in the wake of AI-supercharged hacking Technology",
       "excerpt": "Read the full story on Monitor.",
@@ -49,7 +49,16 @@
     },
     {
       "tag": "Business · Full read",
-      "time": "1 hour ago",
+      "time": "7 hours ago",
+      "minutes": 6,
+      "title": "‘Familiarity doesn’t make your brand indispensable’ Markets",
+      "excerpt": "Full text requires a Monitor subscription.",
+      "summary": "This is a premium (PRIME) Monitor article — the free preview doesn't include enough text to summarize here. Full text requires a Monitor subscription.",
+      "url": "https://www.monitor.co.ug/uganda/business/markets/-familiarity-doesn-t-make-your-brand-indispensable--5644576"
+    },
+    {
+      "tag": "Business · Full read",
+      "time": "Yesterday",
       "minutes": 6,
       "title": "Do savers in Africa have few options to put their money? Insurance",
       "excerpt": "Full text requires a Monitor subscription.",
@@ -60,7 +69,7 @@
       "tag": "Business · Full read",
       "time": "Recently",
       "minutes": 6,
-      "title": "If we can register 10m taxpayers, we can discuss tax cuts - URA Finance Yesterday Listen",
+      "title": "If we can register 10m taxpayers, we can discuss tax cuts - URA Finance Oct 23 Listen",
       "excerpt": "Full text requires a Monitor subscription.",
       "summary": "This is a premium (PRIME) Monitor article — the free preview doesn't include enough text to summarize here. Full text requires a Monitor subscription.",
       "url": "https://www.monitor.co.ug/uganda/business/finance/if-we-can-register-10m-taxpayers-we-can-discuss-tax-cuts-ura-5642338"
@@ -82,15 +91,6 @@
       "excerpt": "Full text requires a Monitor subscription.",
       "summary": "This is a premium (PRIME) Monitor article — the free preview doesn't include enough text to summarize here. Full text requires a Monitor subscription.",
       "url": "https://www.monitor.co.ug/uganda/business/markets/what-is-a-credit-rating-and-why-does-africa-want-its-own--5641040"
-    },
-    {
-      "tag": "Business · Full read",
-      "time": "Oct 22",
-      "minutes": 6,
-      "title": "Audi Q7: Luxury meets Kampala’s road realities Auto",
-      "excerpt": "Full text requires a Monitor subscription.",
-      "summary": "This is a premium (PRIME) Monitor article — the free preview doesn't include enough text to summarize here. Full text requires a Monitor subscription.",
-      "url": "https://www.monitor.co.ug/uganda/business/auto/audi-q7-luxury-meets-kampala-s-road-realities-5640862"
     }
   ]
 }
