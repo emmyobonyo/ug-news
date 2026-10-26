@@ -1,7 +1,25 @@
 {
-  "generated_at": "2026-10-25T12:23:35.419635+00:00",
-  "date_display": "Sunday, October 25, 2026",
+  "generated_at": "2026-10-26T13:59:30.424075+00:00",
+  "date_display": "Monday, October 26, 2026",
   "stories": [
+    {
+      "tag": "Business",
+      "time": "Recently",
+      "minutes": 3,
+      "title": "Power cuts to ease in six months, says regulator Markets 9 hours ago Listen",
+      "excerpt": "Read the full story on Monitor.",
+      "summary": "Read the full story on Monitor.",
+      "url": "https://www.monitor.co.ug/uganda/business/markets/power-cuts-to-ease-in-six-months-says-regulator--5644452"
+    },
+    {
+      "tag": "Business",
+      "time": "10 hours ago",
+      "minutes": 3,
+      "title": "Musasizi says industrial policy is key to export growth Markets",
+      "excerpt": "Read the full story on Monitor.",
+      "summary": "Read the full story on Monitor.",
+      "url": "https://www.monitor.co.ug/uganda/business/markets/musasizi-says-industrial-policy-is-key-to-export-growth-5644428"
+    },
     {
       "tag": "Business",
       "time": "Oct 23",
@@ -39,17 +57,17 @@
       "url": "https://www.monitor.co.ug/uganda/business/technology/five-ways-to-keep-safe-online-in-the-wake-of-ai-supercharged-hacking-5642532"
     },
     {
-      "tag": "Business",
-      "time": "Oct 22",
-      "minutes": 3,
-      "title": "AI is changing the CFO’s job, says Sanjay Tanna Markets",
-      "excerpt": "Read the full story on Monitor.",
-      "summary": "Read the full story on Monitor.",
-      "url": "https://www.monitor.co.ug/uganda/business/markets/ai-is-changing-the-cfo-s-job-says-sanjay-tanna-5641036"
+      "tag": "Business · Full read",
+      "time": "Recently",
+      "minutes": 6,
+      "title": "The oil-dollar trap: How costly fuel has pushed the shilling to its weakest Markets 9 hours ago Listen",
+      "excerpt": "Full text requires a Monitor subscription.",
+      "summary": "This is a premium (PRIME) Monitor article — the free preview doesn't include enough text to summarize here. Full text requires a Monitor subscription.",
+      "url": "https://www.monitor.co.ug/uganda/business/markets/the-oil-dollar-trap-how-costly-fuel-has-pushed-the-shilling-to-its-weakest--5644490"
     },
     {
       "tag": "Business · Full read",
-      "time": "7 hours ago",
+      "time": "Yesterday",
       "minutes": 6,
       "title": "‘Familiarity doesn’t make your brand indispensable’ Markets",
       "excerpt": "Full text requires a Monitor subscription.",
@@ -58,7 +76,7 @@
     },
     {
       "tag": "Business · Full read",
-      "time": "Yesterday",
+      "time": "Oct 24",
       "minutes": 6,
       "title": "Do savers in Africa have few options to put their money? Insurance",
       "excerpt": "Full text requires a Monitor subscription.",
@@ -73,24 +91,6 @@
       "excerpt": "Full text requires a Monitor subscription.",
       "summary": "This is a premium (PRIME) Monitor article — the free preview doesn't include enough text to summarize here. Full text requires a Monitor subscription.",
       "url": "https://www.monitor.co.ug/uganda/business/finance/if-we-can-register-10m-taxpayers-we-can-discuss-tax-cuts-ura-5642338"
-    },
-    {
-      "tag": "Business · Full read",
-      "time": "Oct 22",
-      "minutes": 6,
-      "title": "Uganda’s export story is increasingly written in gold Commodities",
-      "excerpt": "Full text requires a Monitor subscription.",
-      "summary": "This is a premium (PRIME) Monitor article — the free preview doesn't include enough text to summarize here. Full text requires a Monitor subscription.",
-      "url": "https://www.monitor.co.ug/uganda/business/commodities/uganda-s-export-story-is-increasingly-written-in-gold-5641044"
-    },
-    {
-      "tag": "Business · Full read",
-      "time": "Oct 22",
-      "minutes": 6,
-      "title": "What is a credit rating, and why does Africa want its own? Markets",
-      "excerpt": "Full text requires a Monitor subscription.",
-      "summary": "This is a premium (PRIME) Monitor article — the free preview doesn't include enough text to summarize here. Full text requires a Monitor subscription.",
-      "url": "https://www.monitor.co.ug/uganda/business/markets/what-is-a-credit-rating-and-why-does-africa-want-its-own--5641040"
     }
   ]
 }
