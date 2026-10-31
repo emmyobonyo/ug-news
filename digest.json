@@ -1,10 +1,19 @@
 {
-  "generated_at": "2026-10-30T13:53:58.464499+00:00",
-  "date_display": "Friday, October 30, 2026",
+  "generated_at": "2026-10-31T13:24:34.893158+00:00",
+  "date_display": "Saturday, October 31, 2026",
   "stories": [
     {
       "tag": "Business",
-      "time": "22 hours ago",
+      "time": "3 hours ago",
+      "minutes": 3,
+      "title": "Exim Bank, TerraPay partner to cut cross-border remittance costs Finance",
+      "excerpt": "Read the full story on Monitor.",
+      "summary": "Read the full story on Monitor.",
+      "url": "https://www.monitor.co.ug/uganda/business/finance/exim-bank-terrapay-partner-to-cut-cross-border-remittance-costs-5653342"
+    },
+    {
+      "tag": "Business",
+      "time": "Yesterday",
       "minutes": 3,
       "title": "Insurers target small businesses as economic pressures mount Insurance",
       "excerpt": "Read the full story on Monitor.",
@@ -12,19 +21,19 @@
       "url": "https://www.monitor.co.ug/uganda/business/insurance/economic-shocks-drive-ugandan-insurers-to-focus-on-small-businesses-digital-services-5650976"
     },
     {
-      "tag": "Business",
-      "time": "Recently",
-      "minutes": 3,
-      "title": "Govt puts biofuel producers under tighter licensing rules Markets Oct 27 Listen",
-      "excerpt": "Read the full story on Monitor.",
-      "summary": "Read the full story on Monitor.",
-      "url": "https://www.monitor.co.ug/uganda/business/markets/govt-puts-biofuel-producers-under-tighter-licensing-rules-5647904"
+      "tag": "Business · Full read",
+      "time": "4 hours ago",
+      "minutes": 6,
+      "title": "How SMEs gain access to much-needed credit Finance",
+      "excerpt": "Full text requires a Monitor subscription.",
+      "summary": "This is a premium (PRIME) Monitor article — the free preview doesn't include enough text to summarize here. Full text requires a Monitor subscription.",
+      "url": "https://www.monitor.co.ug/uganda/business/finance/how-smes-gain-access-to-much-needed-credit-5653262"
     },
     {
       "tag": "Business · Full read",
       "time": "Recently",
       "minutes": 6,
-      "title": "13 years of no activity: Platinum reopens corporate bond market Markets 9 hours ago Listen",
+      "title": "13 years of no activity: Platinum reopens corporate bond market Markets Yesterday Listen",
       "excerpt": "Full text requires a Monitor subscription.",
       "summary": "This is a premium (PRIME) Monitor article — the free preview doesn't include enough text to summarize here. Full text requires a Monitor subscription.",
       "url": "https://www.monitor.co.ug/uganda/business/markets/13-years-of-no-activity-platinum-reopens-corporate-bond-market--5650882"
@@ -33,7 +42,7 @@
       "tag": "Business · Full read",
       "time": "Recently",
       "minutes": 6,
-      "title": "Can Accra help Uganda Airlines turn Entebbe into a regional hub? Markets Yesterday Listen",
+      "title": "Can Accra help Uganda Airlines turn Entebbe into a regional hub? Markets Oct 29 Listen",
       "excerpt": "Full text requires a Monitor subscription.",
       "summary": "This is a premium (PRIME) Monitor article — the free preview doesn't include enough text to summarize here. Full text requires a Monitor subscription.",
       "url": "https://www.monitor.co.ug/uganda/business/markets/can-accra-help-uganda-airlines-turn-entebbe-into-a-regional-hub--5649768"
@@ -42,14 +51,14 @@
       "tag": "Business · Full read",
       "time": "Recently",
       "minutes": 6,
-      "title": "How a legal vacuum cost EzeeMoney against MTN Technology Yesterday Listen",
+      "title": "How a legal vacuum cost EzeeMoney against MTN Technology Oct 29 Listen",
       "excerpt": "Full text requires a Monitor subscription.",
       "summary": "This is a premium (PRIME) Monitor article — the free preview doesn't include enough text to summarize here. Full text requires a Monitor subscription.",
       "url": "https://www.monitor.co.ug/uganda/business/technology/how-a-legal-vacuum-cost-ezeemoney-against-mtn--5649720"
     },
     {
       "tag": "Business · Full read",
-      "time": "Yesterday",
+      "time": "Oct 29",
       "minutes": 6,
       "title": "Jetour Dashing: A car that listens to your commands Auto",
       "excerpt": "Full text requires a Monitor subscription.",
@@ -58,7 +67,7 @@
     },
     {
       "tag": "Business · Full read",
-      "time": "Yesterday",
+      "time": "Oct 29",
       "minutes": 6,
       "title": "Is my mechanic replacing parts that are still good? Auto",
       "excerpt": "Full text requires a Monitor subscription.",
@@ -67,7 +76,7 @@
     },
     {
       "tag": "Business · Full read",
-      "time": "Yesterday",
+      "time": "Oct 29",
       "minutes": 6,
       "title": "What happens to your engine when you use cheap fuel? Auto",
       "excerpt": "Full text requires a Monitor subscription.",
@@ -82,15 +91,6 @@
       "excerpt": "Full text requires a Monitor subscription.",
       "summary": "This is a premium (PRIME) Monitor article — the free preview doesn't include enough text to summarize here. Full text requires a Monitor subscription.",
       "url": "https://www.monitor.co.ug/uganda/business/markets/shilling-fall-adds-trillions-to-uganda-s-external-debt-bill-5647944"
-    },
-    {
-      "tag": "Business · Full read",
-      "time": "Recently",
-      "minutes": 10,
-      "title": "Monetary policy’s dilemma Prosper Oct 27 Listen",
-      "excerpt": "Uganda Shillings. On September 24, the Bank of Uganda increased its Cash Reserve Requirement from 11 percent to 13.5 percent. PHOTO/MICHAEL KAKUMIRIZI",
-      "summary": "A Central Bank sets one price, the interest rate. The interest rate is only half the central bank’s toolkit. Bank lending rates have hovered around 20 percent since 2011, whatever the Central Bank does.",
-      "url": "https://www.monitor.co.ug/uganda/business/prosper/monetary-policy-s-dilemma-5645876"
     }
   ]
 }
