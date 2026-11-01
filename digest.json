@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-31T13:24:34.893158+00:00",
-  "date_display": "Saturday, October 31, 2026",
+  "generated_at": "2026-11-01T14:06:52.921634+00:00",
+  "date_display": "Sunday, November 1, 2026",
   "stories": [
     {
       "tag": "Business",
-      "time": "3 hours ago",
+      "time": "Yesterday",
       "minutes": 3,
       "title": "Exim Bank, TerraPay partner to cut cross-border remittance costs Finance",
       "excerpt": "Read the full story on Monitor.",
@@ -13,7 +13,7 @@
     },
     {
       "tag": "Business",
-      "time": "Yesterday",
+      "time": "Oct 29",
       "minutes": 3,
       "title": "Insurers target small businesses as economic pressures mount Insurance",
       "excerpt": "Read the full story on Monitor.",
@@ -22,7 +22,16 @@
     },
     {
       "tag": "Business · Full read",
-      "time": "4 hours ago",
+      "time": "Recently",
+      "minutes": 6,
+      "title": "A car shouldn’t be a symbol of status –Experts say Auto 18 hours ago Listen",
+      "excerpt": "Full text requires a Monitor subscription.",
+      "summary": "This is a premium (PRIME) Monitor article — the free preview doesn't include enough text to summarize here. Full text requires a Monitor subscription.",
+      "url": "https://www.monitor.co.ug/uganda/business/auto/a-car-shouldn-t-be-a-symbol-of-status-experts-say-5654026"
+    },
+    {
+      "tag": "Business · Full read",
+      "time": "Yesterday",
       "minutes": 6,
       "title": "How SMEs gain access to much-needed credit Finance",
       "excerpt": "Full text requires a Monitor subscription.",
@@ -33,7 +42,7 @@
       "tag": "Business · Full read",
       "time": "Recently",
       "minutes": 6,
-      "title": "13 years of no activity: Platinum reopens corporate bond market Markets Yesterday Listen",
+      "title": "13 years of no activity: Platinum reopens corporate bond market Markets Oct 30 Listen",
       "excerpt": "Full text requires a Monitor subscription.",
       "summary": "This is a premium (PRIME) Monitor article — the free preview doesn't include enough text to summarize here. Full text requires a Monitor subscription.",
       "url": "https://www.monitor.co.ug/uganda/business/markets/13-years-of-no-activity-platinum-reopens-corporate-bond-market--5650882"
@@ -82,15 +91,6 @@
       "excerpt": "Full text requires a Monitor subscription.",
       "summary": "This is a premium (PRIME) Monitor article — the free preview doesn't include enough text to summarize here. Full text requires a Monitor subscription.",
       "url": "https://www.monitor.co.ug/uganda/business/auto/what-happens-to-your-engine-when-you-use-cheap-fuel--5649822"
-    },
-    {
-      "tag": "Business · Full read",
-      "time": "Recently",
-      "minutes": 6,
-      "title": "Shilling fall adds trillions to Uganda’s external debt bill Markets Oct 28 Listen",
-      "excerpt": "Full text requires a Monitor subscription.",
-      "summary": "This is a premium (PRIME) Monitor article — the free preview doesn't include enough text to summarize here. Full text requires a Monitor subscription.",
-      "url": "https://www.monitor.co.ug/uganda/business/markets/shilling-fall-adds-trillions-to-uganda-s-external-debt-bill-5647944"
     }
   ]
 }
