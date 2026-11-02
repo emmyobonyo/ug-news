@@ -1,10 +1,28 @@
 {
-  "generated_at": "2026-11-01T14:06:52.921634+00:00",
-  "date_display": "Sunday, November 1, 2026",
+  "generated_at": "2026-11-02T16:52:54.429327+00:00",
+  "date_display": "Monday, November 2, 2026",
   "stories": [
     {
       "tag": "Business",
-      "time": "Yesterday",
+      "time": "Recently",
+      "minutes": 3,
+      "title": "Govt launches Shs10.5b electricity network plan Markets 13 hours ago Listen",
+      "excerpt": "Read the full story on Monitor.",
+      "summary": "Read the full story on Monitor.",
+      "url": "https://www.monitor.co.ug/uganda/business/markets/govt-launches-shs10-5b-electricity-network-plan-5653936"
+    },
+    {
+      "tag": "Business",
+      "time": "22 hours ago",
+      "minutes": 3,
+      "title": "Hoteliers urged to embrace digital marketing as Ugandan hotel gets regional recognition Technology",
+      "excerpt": "Read the full story on Monitor.",
+      "summary": "Read the full story on Monitor.",
+      "url": "https://www.monitor.co.ug/uganda/business/technology/hoteliers-urged-to-embrace-digital-marketing-as-ugandan-hotel-gets-regional-recognition-5654828"
+    },
+    {
+      "tag": "Business",
+      "time": "Oct 31",
       "minutes": 3,
       "title": "Exim Bank, TerraPay partner to cut cross-border remittance costs Finance",
       "excerpt": "Read the full story on Monitor.",
@@ -24,14 +42,23 @@
       "tag": "Business · Full read",
       "time": "Recently",
       "minutes": 6,
-      "title": "A car shouldn’t be a symbol of status –Experts say Auto 18 hours ago Listen",
+      "title": "Ggoobi’s cheap govt debt promise meets expensive borrowing reality Finance 12 hours ago Listen",
+      "excerpt": "Full text requires a Monitor subscription.",
+      "summary": "This is a premium (PRIME) Monitor article — the free preview doesn't include enough text to summarize here. Full text requires a Monitor subscription.",
+      "url": "https://www.monitor.co.ug/uganda/business/finance/ggoobi-s-cheap-govt-debt-promise-meets-expensive-borrowing-reality-5653946"
+    },
+    {
+      "tag": "Business · Full read",
+      "time": "Recently",
+      "minutes": 6,
+      "title": "A car shouldn’t be a symbol of status –Experts say Auto Yesterday Listen",
       "excerpt": "Full text requires a Monitor subscription.",
       "summary": "This is a premium (PRIME) Monitor article — the free preview doesn't include enough text to summarize here. Full text requires a Monitor subscription.",
       "url": "https://www.monitor.co.ug/uganda/business/auto/a-car-shouldn-t-be-a-symbol-of-status-experts-say-5654026"
     },
     {
       "tag": "Business · Full read",
-      "time": "Yesterday",
+      "time": "Oct 31",
       "minutes": 6,
       "title": "How SMEs gain access to much-needed credit Finance",
       "excerpt": "Full text requires a Monitor subscription.",
@@ -64,33 +91,6 @@
       "excerpt": "Full text requires a Monitor subscription.",
       "summary": "This is a premium (PRIME) Monitor article — the free preview doesn't include enough text to summarize here. Full text requires a Monitor subscription.",
       "url": "https://www.monitor.co.ug/uganda/business/technology/how-a-legal-vacuum-cost-ezeemoney-against-mtn--5649720"
-    },
-    {
-      "tag": "Business · Full read",
-      "time": "Oct 29",
-      "minutes": 6,
-      "title": "Jetour Dashing: A car that listens to your commands Auto",
-      "excerpt": "Full text requires a Monitor subscription.",
-      "summary": "This is a premium (PRIME) Monitor article — the free preview doesn't include enough text to summarize here. Full text requires a Monitor subscription.",
-      "url": "https://www.monitor.co.ug/uganda/business/auto/jetour-dashing-a-car-that-listens-to-your-commands-5649874"
-    },
-    {
-      "tag": "Business · Full read",
-      "time": "Oct 29",
-      "minutes": 6,
-      "title": "Is my mechanic replacing parts that are still good? Auto",
-      "excerpt": "Full text requires a Monitor subscription.",
-      "summary": "This is a premium (PRIME) Monitor article — the free preview doesn't include enough text to summarize here. Full text requires a Monitor subscription.",
-      "url": "https://www.monitor.co.ug/uganda/business/auto/is-my-mechanic-replacing-parts-that-are-still-good--5649858"
-    },
-    {
-      "tag": "Business · Full read",
-      "time": "Oct 29",
-      "minutes": 6,
-      "title": "What happens to your engine when you use cheap fuel? Auto",
-      "excerpt": "Full text requires a Monitor subscription.",
-      "summary": "This is a premium (PRIME) Monitor article — the free preview doesn't include enough text to summarize here. Full text requires a Monitor subscription.",
-      "url": "https://www.monitor.co.ug/uganda/business/auto/what-happens-to-your-engine-when-you-use-cheap-fuel--5649822"
     }
   ]
 }
